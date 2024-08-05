@@ -109,6 +109,9 @@ crew = Crew(
     verbose=2
 )
 
-result = crew.kickoff(inputs={"topic": "Artificial Intelligence"})
+#result = crew.kickoff(inputs={"topic": "Artificial Intelligence"})
+
+topic = input("Give me a topic to work on")
+result = crew.kickoff(inputs={"topic": topic})
 
 
