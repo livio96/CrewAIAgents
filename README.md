@@ -18,13 +18,6 @@
 - Python 3.12 or higher
 - `pip` (Python package installer)
 
-### Virtual Python Environment Creation 
-```bash
-- pip install virtualenv
-- python -m venv customer_support_agent
-- customer_support_agent\Scripts\activate
-```
-
 ### Install Dependencies
 
 Install the required packages:
@@ -39,11 +32,3 @@ OPENAI_API_KEY=your_openai_api_key
 
 ### Run the Project
 Run the main.py script:
-
-
-Run the Streamlit application:
-```
-streamlit run app.py
-```
-
-Once the server is running, it will open a web browser
